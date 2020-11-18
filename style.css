@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: sans-sarif, arial !important;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #737373;
+    font-family: lato;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+.fix{
+    overflow: hidden;
+}
+.container_full{
+    width:100%;
+}
+.container{
+    width:75%;
+    display:block;
+    margin:0 auto;
+}
+.header_f{
+    width:100%;
+    background-color: #292929;
+}
+#header .logo_left{
+    float:left;
+}
+#header .logo_left h1{
+    font-family: lato;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 34px;
+}
+#header nav{
+    float: right;
+}
+#header nav #menu{
+    list-style: none;
+}
+#header nav #menu li{
+    float: left;
+    border-left: 2px solid black;
+    border-bottom: 5px solid black;
+}
+#header nav #menu li.active{
+    border-bottom: 5px solid green;
+}
+#header nav #menu li:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#header nav #menu li:last-child{
+    border-right: 2px solid black;
+}
+#header nav #menu li a{
+    display: block;
+    color: #ffffff;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px 30px;
+}
+#header nav #menu li a:hover{
+    color: greenyellow;
+}
+#header nav #menu li.active a{
+    color: green;
+}
+.content_wrapper_bg{
+    border-top: 5px solid black;
+    margin-top: -5px;
+    border-bottom: 1px solid #E1E0E0;
+}
+.content_wrapper{
+    border-left: 1px solid #E1E0E0;
+}
+.single_post_wrapper img{
+    margin-top: 80px;
+}
+.left{
+    width: 62%;
+    float: left;
+}
+.single_post_wrapper h2, .single_post_wrapper p{
+    margin: 20px;
+}
+.single_post_wrapper p{
+    font-family: lato;
+    color: #737373;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.single_post_wrapper h2{
+    margin-bottom: 30px;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.single_post_wrapper a{
+    border: 1px solid #C7C7C7;
+    color: #C2C1C1;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.sidebar{
+    float: right;
+    width: 35%;
+    margin-top: 80px;
+}
+.single_sidebar{
+    margin-bottom: 80px;
+}
+.content_wrapper_bg .fix{
+    border-left: 1px solid #E1E0E0;
+    border-right: 1px solid #E1E0E0;
+}
+.single_sidebar h2{
+    background-color: #F8F6F5;
+    padding: 12px;
+    font-family: lato;
+    font-size: 22px;
+    padding-left: 22px;
+    border-left: 3px solid #65BC47;
+}
+.single_sidebar p{
+    font-family: lato;
+    font-size: 16px;
+    color: #737373;
+    text-align: justify;
+    margin-right: 10px;
+}
+.search_bar, .email{
+    padding: 15px;
+    padding-right: 62%;
+    width: 35%;
+    border: 1px solid #E1E0E0;
+    font-size: 12px;
+}
+.single_sidebar ::placeholder{
+    color: #BEBEBE;
+    overflow: visible;
+}
+
+.content_bottom{
+    display: inline-block;
+    width: 96%;
+    padding: 20px;
+    margin-top: 100px;
+    border-top: 1px solid #E1E0E0;
+    border-right: 1px solid #E1E0E0;
+    border-left: 1px solid #E1E0E0;
+}
+.previous{
+    float: left;
+}
+.next{
+    float: right;
+}
+.previous, .next{
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #818181;
+}
+.left .single_post_wrapper .continue_r{
+    font-family: lato;
+    font-size: 16px;
+}
+.footer_bg{
+    background-color: #F8F6F5;
+}
+.footer h1{
+    margin-top: 70px;
+    color: black;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 13px;
+}
+.social_icon{
+    width: 100%;
+}
+.social_icon ul{
+    list-style: none;
+    margin-left: 39%;
+}
+.social_icon ul li{
+    display: inline-block;
+
+}
+.fb a{
+    display: block;
+    background: url(img/fb1.png) no-repeat;
+    width: 43px;
+    height: 43px;
+    margin-bottom: 100px;
+}
+.fb a:hover{
+    background: url(img/fb.png) no-repeat;
+}
